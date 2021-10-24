@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MeddyTeddy_chatBot_MeddyTeddy_chatBotUITests : NSObject
+@end
+@implementation PodsDummy_Pods_MeddyTeddy_chatBot_MeddyTeddy_chatBotUITests
+@end

@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870E01C1B8070F8D818A4AC3 /* Pods_MeddyTeddy_chatBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B20BCEA3EE89402782AC91 /* Pods_MeddyTeddy_chatBot.framework */; };
+		8E0E8AA5E519C46FFA4B5E7E /* Pods_MeddyTeddy_chatBotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F8BFC7FCB090051CDAB017 /* Pods_MeddyTeddy_chatBotTests.framework */; };
 		D6A4BF23272532A800EF9C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF22272532A800EF9C13 /* AppDelegate.swift */; };
 		D6A4BF25272532A800EF9C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF24272532A800EF9C13 /* SceneDelegate.swift */; };
-		D6A4BF27272532A800EF9C13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF26272532A800EF9C13 /* ViewController.swift */; };
+		D6A4BF27272532A800EF9C13 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF26272532A800EF9C13 /* ChatScreen.swift */; };
 		D6A4BF2A272532A800EF9C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A4BF28272532A800EF9C13 /* Main.storyboard */; };
 		D6A4BF2D272532A900EF9C13 /* MeddyTeddy_chatBot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF2B272532A900EF9C13 /* MeddyTeddy_chatBot.xcdatamodeld */; };
 		D6A4BF2F272532B000EF9C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A4BF2E272532B000EF9C13 /* Assets.xcassets */; };
 		D6A4BF32272532B000EF9C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A4BF30272532B000EF9C13 /* LaunchScreen.storyboard */; };
 		D6A4BF3D272532B200EF9C13 /* MeddyTeddy_chatBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF3C272532B200EF9C13 /* MeddyTeddy_chatBotTests.swift */; };
 		D6A4BF48272532B200EF9C13 /* MeddyTeddy_chatBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF47272532B200EF9C13 /* MeddyTeddy_chatBotUITests.swift */; };
+		D6A4BF5E272539EA00EF9C13 /* SendMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF5D272539EA00EF9C13 /* SendMessageCell.swift */; };
+		D6A4BF6327253A1A00EF9C13 /* ReceivedMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF6227253A1A00EF9C13 /* ReceivedMessageCell.swift */; };
+		D6A4BF6927253AA900EF9C13 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF6827253AA900EF9C13 /* ChatMessage.swift */; };
+		D6A4BF7227253CA100EF9C13 /* ChatScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF7127253CA100EF9C13 /* ChatScreenViewModel.swift */; };
+		D6A4BF7B2725525100EF9C13 /* ExtendedUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF7A2725525100EF9C13 /* ExtendedUrl.swift */; };
+		D6A4BF80272552D300EF9C13 /* NetworkUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF7F272552D300EF9C13 /* NetworkUrl.swift */; };
+		D6A4BF852725531B00EF9C13 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF842725531B00EF9C13 /* NetworkConstants.swift */; };
+		D6A4BF8A2725538B00EF9C13 /* NetworkOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF892725538B00EF9C13 /* NetworkOperations.swift */; };
+		D6A4BF8F2725540700EF9C13 /* NetworkEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF8E2725540700EF9C13 /* NetworkEnum.swift */; };
+		D6A4BF942725565600EF9C13 /* JSONParametereEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF932725565600EF9C13 /* JSONParametereEncoder.swift */; };
+		D6A4BF992725572E00EF9C13 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF982725572E00EF9C13 /* URLParameterEncoder.swift */; };
+		D6A4BFA0272557E200EF9C13 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BF9F272557E200EF9C13 /* CommonMethods.swift */; };
+		D6A4BFA8272559F300EF9C13 /* DateSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BFA6272559F300EF9C13 /* DateSectionView.swift */; };
+		D6A4BFA9272559F300EF9C13 /* DateSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A4BFA7272559F300EF9C13 /* DateSectionView.xib */; };
+		D6A4BFAF27255ADE00EF9C13 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BFAE27255ADE00EF9C13 /* UIViewControllerExtension.swift */; };
+		D6A4BFC12725819200EF9C13 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BFC02725819200EF9C13 /* NSObject.swift */; };
+		D6A4BFC627258C9700EF9C13 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BFC527258C9700EF9C13 /* UIView.swift */; };
+		E7769A529DB5848E735765CE /* Pods_MeddyTeddy_chatBot_MeddyTeddy_chatBotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D19387D67C4C96DA1F9030 /* Pods_MeddyTeddy_chatBot_MeddyTeddy_chatBotUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +56,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B20BCEA3EE89402782AC91 /* Pods_MeddyTeddy_chatBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeddyTeddy_chatBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F8BFC7FCB090051CDAB017 /* Pods_MeddyTeddy_chatBotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeddyTeddy_chatBotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9977BC0FD8B0FD3B196317 /* Pods-MeddyTeddy_chatBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeddyTeddy_chatBotTests.debug.xcconfig"; path = "Target Support Files/Pods-MeddyTeddy_chatBotTests/Pods-MeddyTeddy_chatBotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EC5CE26C934D134DC73AA79 /* Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD9FDE2BF991E8C75D06477 /* Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.release.xcconfig"; path = "Target Support Files/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51D19387D67C4C96DA1F9030 /* Pods_MeddyTeddy_chatBot_MeddyTeddy_chatBotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeddyTeddy_chatBot_MeddyTeddy_chatBotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		642AA8201D9D2DC8F6B11C77 /* Pods-MeddyTeddy_chatBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeddyTeddy_chatBot.debug.xcconfig"; path = "Target Support Files/Pods-MeddyTeddy_chatBot/Pods-MeddyTeddy_chatBot.debug.xcconfig"; sourceTree = "<group>"; };
+		9516E697E2C82C0FD642D304 /* Pods-MeddyTeddy_chatBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeddyTeddy_chatBot.release.xcconfig"; path = "Target Support Files/Pods-MeddyTeddy_chatBot/Pods-MeddyTeddy_chatBot.release.xcconfig"; sourceTree = "<group>"; };
 		D6A4BF1F272532A800EF9C13 /* MeddyTeddy_chatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeddyTeddy_chatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A4BF22272532A800EF9C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6A4BF24272532A800EF9C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6A4BF26272532A800EF9C13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6A4BF26272532A800EF9C13 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
 		D6A4BF29272532A800EF9C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6A4BF2C272532A900EF9C13 /* MeddyTeddy_chatBot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeddyTeddy_chatBot.xcdatamodel; sourceTree = "<group>"; };
 		D6A4BF2E272532B000EF9C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +79,24 @@
 		D6A4BF43272532B200EF9C13 /* MeddyTeddy_chatBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeddyTeddy_chatBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A4BF47272532B200EF9C13 /* MeddyTeddy_chatBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeddyTeddy_chatBotUITests.swift; sourceTree = "<group>"; };
 		D6A4BF49272532B200EF9C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A4BF5D272539EA00EF9C13 /* SendMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageCell.swift; sourceTree = "<group>"; };
+		D6A4BF6227253A1A00EF9C13 /* ReceivedMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedMessageCell.swift; sourceTree = "<group>"; };
+		D6A4BF6827253AA900EF9C13 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		D6A4BF7127253CA100EF9C13 /* ChatScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenViewModel.swift; sourceTree = "<group>"; };
+		D6A4BF7A2725525100EF9C13 /* ExtendedUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedUrl.swift; sourceTree = "<group>"; };
+		D6A4BF7F272552D300EF9C13 /* NetworkUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUrl.swift; sourceTree = "<group>"; };
+		D6A4BF842725531B00EF9C13 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		D6A4BF892725538B00EF9C13 /* NetworkOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOperations.swift; sourceTree = "<group>"; };
+		D6A4BF8E2725540700EF9C13 /* NetworkEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEnum.swift; sourceTree = "<group>"; };
+		D6A4BF932725565600EF9C13 /* JSONParametereEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParametereEncoder.swift; sourceTree = "<group>"; };
+		D6A4BF982725572E00EF9C13 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		D6A4BF9F272557E200EF9C13 /* CommonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		D6A4BFA6272559F300EF9C13 /* DateSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSectionView.swift; sourceTree = "<group>"; };
+		D6A4BFA7272559F300EF9C13 /* DateSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateSectionView.xib; sourceTree = "<group>"; };
+		D6A4BFAE27255ADE00EF9C13 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		D6A4BFC02725819200EF9C13 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		D6A4BFC527258C9700EF9C13 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FD9B85BD671C1A5F1A78210D /* Pods-MeddyTeddy_chatBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeddyTeddy_chatBotTests.release.xcconfig"; path = "Target Support Files/Pods-MeddyTeddy_chatBotTests/Pods-MeddyTeddy_chatBotTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870E01C1B8070F8D818A4AC3 /* Pods_MeddyTeddy_chatBot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0E8AA5E519C46FFA4B5E7E /* Pods_MeddyTeddy_chatBotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +120,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7769A529DB5848E735765CE /* Pods_MeddyTeddy_chatBot_MeddyTeddy_chatBotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3944DE6A4D1C3D6B63A5D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				642AA8201D9D2DC8F6B11C77 /* Pods-MeddyTeddy_chatBot.debug.xcconfig */,
+				9516E697E2C82C0FD642D304 /* Pods-MeddyTeddy_chatBot.release.xcconfig */,
+				2EC5CE26C934D134DC73AA79 /* Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.debug.xcconfig */,
+				3AD9FDE2BF991E8C75D06477 /* Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.release.xcconfig */,
+				2A9977BC0FD8B0FD3B196317 /* Pods-MeddyTeddy_chatBotTests.debug.xcconfig */,
+				FD9B85BD671C1A5F1A78210D /* Pods-MeddyTeddy_chatBotTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7689134A613B9C4F9318F52A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16B20BCEA3EE89402782AC91 /* Pods_MeddyTeddy_chatBot.framework */,
+				51D19387D67C4C96DA1F9030 /* Pods_MeddyTeddy_chatBot_MeddyTeddy_chatBotUITests.framework */,
+				26F8BFC7FCB090051CDAB017 /* Pods_MeddyTeddy_chatBotTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6A4BF16272532A800EF9C13 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +157,8 @@
 				D6A4BF3B272532B200EF9C13 /* MeddyTeddy_chatBotTests */,
 				D6A4BF46272532B200EF9C13 /* MeddyTeddy_chatBotUITests */,
 				D6A4BF20272532A800EF9C13 /* Products */,
+				1C3944DE6A4D1C3D6B63A5D8 /* Pods */,
+				7689134A613B9C4F9318F52A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +177,10 @@
 			children = (
 				D6A4BF22272532A800EF9C13 /* AppDelegate.swift */,
 				D6A4BF24272532A800EF9C13 /* SceneDelegate.swift */,
-				D6A4BF26272532A800EF9C13 /* ViewController.swift */,
+				D6A4BF7027253C8800EF9C13 /* ViewModel */,
+				D6A4BF6727253A9500EF9C13 /* Model */,
+				D6A4BF582725393700EF9C13 /* ViewControllers */,
+				D6A4BF9D2725579600EF9C13 /* Utilities */,
 				D6A4BF28272532A800EF9C13 /* Main.storyboard */,
 				D6A4BF2E272532B000EF9C13 /* Assets.xcassets */,
 				D6A4BF30272532B000EF9C13 /* LaunchScreen.storyboard */,
@@ -131,6 +208,100 @@
 			path = MeddyTeddy_chatBotUITests;
 			sourceTree = "<group>";
 		};
+		D6A4BF582725393700EF9C13 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BF5C272539C300EF9C13 /* Cell */,
+				D6A4BF26272532A800EF9C13 /* ChatScreen.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6A4BF5C272539C300EF9C13 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BF5D272539EA00EF9C13 /* SendMessageCell.swift */,
+				D6A4BF6227253A1A00EF9C13 /* ReceivedMessageCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D6A4BF6727253A9500EF9C13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BF6827253AA900EF9C13 /* ChatMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6A4BF7027253C8800EF9C13 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BF7127253CA100EF9C13 /* ChatScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D6A4BF792725521200EF9C13 /* NetworkUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BF7A2725525100EF9C13 /* ExtendedUrl.swift */,
+				D6A4BF7F272552D300EF9C13 /* NetworkUrl.swift */,
+				D6A4BF842725531B00EF9C13 /* NetworkConstants.swift */,
+				D6A4BF892725538B00EF9C13 /* NetworkOperations.swift */,
+				D6A4BF8E2725540700EF9C13 /* NetworkEnum.swift */,
+				D6A4BF932725565600EF9C13 /* JSONParametereEncoder.swift */,
+				D6A4BF982725572E00EF9C13 /* URLParameterEncoder.swift */,
+			);
+			path = NetworkUtilities;
+			sourceTree = "<group>";
+		};
+		D6A4BF9D2725579600EF9C13 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BFAD27255AC600EF9C13 /* Extensions */,
+				D6A4BFA42725595800EF9C13 /* CustomViews */,
+				D6A4BF9E272557A700EF9C13 /* CommonMethods */,
+				D6A4BF792725521200EF9C13 /* NetworkUtilities */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D6A4BF9E272557A700EF9C13 /* CommonMethods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BF9F272557E200EF9C13 /* CommonMethods.swift */,
+			);
+			path = CommonMethods;
+			sourceTree = "<group>";
+		};
+		D6A4BFA42725595800EF9C13 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BFA5272559DC00EF9C13 /* DateSectionView */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		D6A4BFA5272559DC00EF9C13 /* DateSectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BFA6272559F300EF9C13 /* DateSectionView.swift */,
+				D6A4BFA7272559F300EF9C13 /* DateSectionView.xib */,
+			);
+			path = DateSectionView;
+			sourceTree = "<group>";
+		};
+		D6A4BFAD27255AC600EF9C13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BFAE27255ADE00EF9C13 /* UIViewControllerExtension.swift */,
+				D6A4BFC02725819200EF9C13 /* NSObject.swift */,
+				D6A4BFC527258C9700EF9C13 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6A4BF4C272532B200EF9C13 /* Build configuration list for PBXNativeTarget "MeddyTeddy_chatBot" */;
 			buildPhases = (
+				F19B684F5C259BBD303BB96F /* [CP] Check Pods Manifest.lock */,
 				D6A4BF1B272532A800EF9C13 /* Sources */,
 				D6A4BF1C272532A800EF9C13 /* Frameworks */,
 				D6A4BF1D272532A800EF9C13 /* Resources */,
+				38206C32210F0EB5AC3A75AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6A4BF4F272532B200EF9C13 /* Build configuration list for PBXNativeTarget "MeddyTeddy_chatBotTests" */;
 			buildPhases = (
+				A7D67959FF6AFC6E80996FC9 /* [CP] Check Pods Manifest.lock */,
 				D6A4BF34272532B100EF9C13 /* Sources */,
 				D6A4BF35272532B100EF9C13 /* Frameworks */,
 				D6A4BF36272532B100EF9C13 /* Resources */,
@@ -173,9 +347,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6A4BF52272532B200EF9C13 /* Build configuration list for PBXNativeTarget "MeddyTeddy_chatBotUITests" */;
 			buildPhases = (
+				C72153C6772FBE930238081A /* [CP] Check Pods Manifest.lock */,
 				D6A4BF3F272532B200EF9C13 /* Sources */,
 				D6A4BF40272532B200EF9C13 /* Frameworks */,
 				D6A4BF41272532B200EF9C13 /* Resources */,
+				F59D34FBD38575ED329939BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +412,7 @@
 			files = (
 				D6A4BF32272532B000EF9C13 /* LaunchScreen.storyboard in Resources */,
 				D6A4BF2F272532B000EF9C13 /* Assets.xcassets in Resources */,
+				D6A4BFA9272559F300EF9C13 /* DateSectionView.xib in Resources */,
 				D6A4BF2A272532A800EF9C13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,14 +433,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38206C32210F0EB5AC3A75AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeddyTeddy_chatBot/Pods-MeddyTeddy_chatBot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeddyTeddy_chatBot/Pods-MeddyTeddy_chatBot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeddyTeddy_chatBot/Pods-MeddyTeddy_chatBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D67959FF6AFC6E80996FC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeddyTeddy_chatBotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C72153C6772FBE930238081A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F19B684F5C259BBD303BB96F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeddyTeddy_chatBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59D34FBD38575ED329939BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests/Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6A4BF1B272532A800EF9C13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A4BFC627258C9700EF9C13 /* UIView.swift in Sources */,
+				D6A4BF942725565600EF9C13 /* JSONParametereEncoder.swift in Sources */,
+				D6A4BF7227253CA100EF9C13 /* ChatScreenViewModel.swift in Sources */,
+				D6A4BFAF27255ADE00EF9C13 /* UIViewControllerExtension.swift in Sources */,
+				D6A4BF6927253AA900EF9C13 /* ChatMessage.swift in Sources */,
+				D6A4BF852725531B00EF9C13 /* NetworkConstants.swift in Sources */,
+				D6A4BF6327253A1A00EF9C13 /* ReceivedMessageCell.swift in Sources */,
+				D6A4BF8A2725538B00EF9C13 /* NetworkOperations.swift in Sources */,
 				D6A4BF2D272532A900EF9C13 /* MeddyTeddy_chatBot.xcdatamodeld in Sources */,
-				D6A4BF27272532A800EF9C13 /* ViewController.swift in Sources */,
+				D6A4BFA8272559F300EF9C13 /* DateSectionView.swift in Sources */,
+				D6A4BF8F2725540700EF9C13 /* NetworkEnum.swift in Sources */,
+				D6A4BF992725572E00EF9C13 /* URLParameterEncoder.swift in Sources */,
+				D6A4BF5E272539EA00EF9C13 /* SendMessageCell.swift in Sources */,
+				D6A4BF27272532A800EF9C13 /* ChatScreen.swift in Sources */,
+				D6A4BFA0272557E200EF9C13 /* CommonMethods.swift in Sources */,
+				D6A4BF7B2725525100EF9C13 /* ExtendedUrl.swift in Sources */,
 				D6A4BF23272532A800EF9C13 /* AppDelegate.swift in Sources */,
+				D6A4BF80272552D300EF9C13 /* NetworkUrl.swift in Sources */,
+				D6A4BFC12725819200EF9C13 /* NSObject.swift in Sources */,
 				D6A4BF25272532A800EF9C13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +733,7 @@
 		};
 		D6A4BF4D272532B200EF9C13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642AA8201D9D2DC8F6B11C77 /* Pods-MeddyTeddy_chatBot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +752,7 @@
 		};
 		D6A4BF4E272532B200EF9C13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9516E697E2C82C0FD642D304 /* Pods-MeddyTeddy_chatBot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +771,7 @@
 		};
 		D6A4BF50272532B200EF9C13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9977BC0FD8B0FD3B196317 /* Pods-MeddyTeddy_chatBotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +793,7 @@
 		};
 		D6A4BF51272532B200EF9C13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9B85BD671C1A5F1A78210D /* Pods-MeddyTeddy_chatBotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +815,7 @@
 		};
 		D6A4BF53272532B200EF9C13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC5CE26C934D134DC73AA79 /* Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +835,7 @@
 		};
 		D6A4BF54272532B200EF9C13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD9FDE2BF991E8C75D06477 /* Pods-MeddyTeddy_chatBot-MeddyTeddy_chatBotUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

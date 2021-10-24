@@ -1,0 +1,6 @@
+framework module Pods_MeddyTeddy_chatBot {
+  umbrella header "Pods-MeddyTeddy_chatBot-umbrella.h"
+
+  export *
+  module * { export * }
+}
